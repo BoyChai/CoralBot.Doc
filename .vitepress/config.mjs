@@ -2,6 +2,7 @@ import { defineConfig } from "vitepress";
 
 export default defineConfig({
   title: "CoralBot.Doc",
+  base: "/CoralBot.Doc/",
   description: "A VitePress Site",
   themeConfig: {
     editLink: {
